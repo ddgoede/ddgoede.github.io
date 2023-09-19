@@ -17,6 +17,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: PhD student, Artificial Intelligence
+          company: University of Amsterdam
+          company_url: ''
+          company_logo: uva #TODOO
+          location: Amsterdam
+          date_start: '2023-09-11'
+          date_end: ''
+          description: PhD student on Adaptable Foundation Models at the University of Amsterdam supervised by Cees Snoek and Yuki Asano. The position is part of the QUVA Lab, which is an academic-industry lab supported by Qualcomm, and the ELLIS Network of Excellence in AI.
         - title: Teaching Assistant
           company: University of Amsterdam
           company_url: ''

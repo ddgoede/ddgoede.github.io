@@ -77,7 +77,6 @@ email: ''
 highlight_name: true
 ---
 
-I'm a PhD student at the QUVA lab at the University of Amsterdam supervised by [Yuki Asano](https://yukimasano.github.io/) and [Cees Snoek](https://www.ceessnoek.info/). My research primarily focuses on [foundation models](https://arxiv.org/abs/2108.07258), and how they can be efficiently adapted to incorporate desirable behaviors and properties.
+I'm a PhD student at the QUVA lab at the University of Amsterdam supervised by [Yuki Asano](https://yukimasano.github.io/) and [Cees Snoek](https://www.ceessnoek.info/).  Additionally, I am enrolled in the ELLIS PhD program in collaboration with Qualcomm. My research primarily focuses on [foundation models](https://arxiv.org/abs/2108.07258), and how they can be efficiently adapted to incorporate desirable behaviors and properties.
 
 Previously, I completed my Master's degree in Artificial Intelligence at the University of Amsterdam, where I mainly worked on computer vision and causal representation learning. I also hold a Bachelor's degree in Computer Science from the University of Amsterdam.
-{style="text-align: justify;"}
