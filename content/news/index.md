@@ -14,6 +14,3 @@ header:
   caption: ''
   image: ''
 ---
-
-- Test
-- b

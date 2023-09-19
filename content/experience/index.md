@@ -30,7 +30,7 @@ sections:
             * Undergraduate courses: Programming Languages (19/20, 21/22), Linear Algebra (19/20),  Data Structures and Algorithms (19/20), Automata (19/20), Databases (20/21), Discrete Mathematics (20/21), Calculus (20/21), Machine Learning (20/21, 21/22), Computer Vision (21/22), Data Analysis (21/22), and VR/AR (21/22).
             * Graduate courses: Deep Learning 1 (22/23, 23/24), Deep Learning 2 (22/23).
         - title: Research Intern
-          company: University of Amsterdam (QUVA Lab), Qualcomm
+          company: University of Amsterdam (QUVA Lab)
           company_url: ''
           company_logo: quva #TODO
           location: Amsterdam

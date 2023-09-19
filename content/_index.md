@@ -37,6 +37,25 @@ sections:
   #   design:
   #     columns: '2'
   #     view: compact
+  - block: markdown
+    id: news
+    content:
+      title: News
+      filters:
+        folders:
+          - news
+        exclude_featured: true
+      text: |-
+        - Sep 2023: I have started my PhD on Adaptable Foundation Models at the University of Amsterdam under the supervision of Cees Snoek and Yuki Asano.
+        - Jan 2023: I gave an invited guest lecture [“MLRC 2021 - Our Experience”](/media/talks/FACT-guest-lecture.pdf) at the introductory lecture of the [ 
+          Fairness in AI course](https://studiegids.uva.nl/xmlpages/page/2021-2022/zoek-vak/vak/90232) of the University of Amsterdam.
+        - Aug 2022: Our paper [“C-3PO: Towards Rotation Equivariant Feature Detection and Description”](publication/bagad-2022-c3po/) has been accepted to the [VIPriors workshop](https://vipriors.github.io/) at ECCV 2022.
+        - Jul 2022: Our poster on [“Quantifying CLIP's Ability to Perform Cross-Modal Grounding using Attention-Model Explainability”](/media/posters/CLIP-explainability-poster.pdf) received the best poster award at the [XAI course](https://studiegids.uva.nl/xmlpages/page/2021-2022/zoek-vak/vak/90465) of the University of Amsterdam.
+        - Apr 2022: Our paper on the [Reproducibility Study of “Counterfactual Generative Networks”](publication/bagad-2022-reproducibility/) received the Best Paper Award of [MLRC 2021](https://paperswithcode.com/rc2021).
+        - Jan 2022: Our paper [“The Cost of Reinforcement Learning for Game Engines: The AZ-Hive Case-study”](publication/degoede-2022-cost/) has been accepted to ICPE 2022.
+        - Jun 2021: Our presentation “The Cost of AlphaZero: the Hive Case” received the best presentation award at [CompSys-2021](https://www.compsys.science/conference/previous/2021/).
+    design:
+      columns: '2'
   - block: collection
     id: publications
     content:
@@ -91,18 +110,6 @@ sections:
   #         url: ''
   #   design:
   #     columns: '2'
-  # - block: markdown
-  #   id: news
-  #   content:
-  #     title: News
-  #     filters:
-  #       folders:
-  #         - news
-  #       exclude_featured: true
-  #     # text: |-
-  #     #   - Test
-    design:
-      columns: '2'
   # - block: collection
   #   id: news
   #   content:
