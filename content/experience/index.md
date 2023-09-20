@@ -45,7 +45,7 @@ sections:
           date_start: '2022-11-01'
           date_end: '2023-06-30'
           description: |2-
-              Research internship for my Master's thesis at the Qualcomm-UvA (QUVA) lab, under supervision of Dr. Sara Magliacane and Phillip Lippe.
+              Research internship in causal representation learning for my Master's thesis at the Qualcomm-UvA (QUVA) lab, under supervision of Dr. Sara Magliacane and Phillip Lippe.
     design:
       columns: '2'
 ---
