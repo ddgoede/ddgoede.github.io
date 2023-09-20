@@ -47,6 +47,7 @@ sections:
         exclude_featured: true
       text: |-
         - Sep 2023: I have started my PhD on Adaptable Foundation Models at the University of Amsterdam under the supervision of Cees Snoek and Yuki Asano.
+        - Apr 2023: I gave a tutorial on [Causal Identifiability from Temporal Intervened Sequences](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Causality_and_CRL/citris-tutorial.html) as a part of the Causality and Causal Representation Learning module of the [Deep Learning 2 course](https://uvadl2c.github.io/) at the University of Amsterdam.
         - Jan 2023: I gave an invited guest lecture [“MLRC 2021 - Our Experience”](/media/talks/FACT-guest-lecture.pdf) at the introductory lecture of the [ 
           Fairness in AI course](https://studiegids.uva.nl/xmlpages/page/2021-2022/zoek-vak/vak/90232) of the University of Amsterdam.
         - Aug 2022: Our paper [“C-3PO: Towards Rotation Equivariant Feature Detection and Description”](publication/bagad-2022-c3po/) has been accepted to the [VIPriors workshop](https://vipriors.github.io/) at ECCV 2022.
