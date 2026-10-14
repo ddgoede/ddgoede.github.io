@@ -22,10 +22,11 @@ organizations:
     url: https://ivi.fnwi.uva.nl/quva/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image tokenization, self-supervised learning, and foundation models.
+bio: My research interests include learning mechanics, image tokenization, self-supervised learning, and foundation models.
 
 # Interests to show in About widget
 interests:
+  - Learning Mechanics
   - Image Tokenization
   - Self-Supervised Learning
   - Foundation Models
