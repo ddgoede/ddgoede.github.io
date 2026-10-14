@@ -18,6 +18,12 @@ tags:
 - Semantic fidelity
 - Self-supervised learning
 featured: false
+# No standalone page: every link to this entry goes to the project page.
+external_link: 'https://ddgoede.github.io/gist-tokenizer/'
+searchable: false
+_build:
+  render: never
+  list: always
 url_pdf: 'https://arxiv.org/pdf/2610.15515'
 url_code: ''
 url_dataset: ''
