@@ -22,13 +22,13 @@ organizations:
     url: https://ivi.fnwi.uva.nl/quva/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include foundation models, computer vision, and self-supervised learning.
+bio: My research interests include image tokenization, self-supervised learning, and foundation models.
 
 # Interests to show in About widget
 interests:
-  - Foundation Models
-  - Computer Vision
+  - Image Tokenization
   - Self-Supervised Learning
+  - Foundation Models
 
 # Education to show in About widget
 education:
@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:d.degoede@uva.nl'
     display:
       header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -77,6 +77,6 @@ email: ''
 highlight_name: true
 ---
 
-I'm a PhD student at the QUVA lab at the University of Amsterdam supervised by [Yuki Asano](https://yukimasano.github.io/) and [Cees Snoek](https://www.ceessnoek.info/).  Additionally, I am enrolled in the ELLIS PhD program in collaboration with Qualcomm. My research primarily focuses on [foundation models](https://arxiv.org/abs/2108.07258), and how they can be efficiently adapted to incorporate desirable behaviors and properties.
+I'm a PhD student at the QUVA lab at the University of Amsterdam supervised by [Yuki Asano](https://yukimasano.github.io/) and [Cees Snoek](https://www.ceessnoek.info/).  Additionally, I am enrolled in the ELLIS PhD program in collaboration with Qualcomm. My research focuses on improving the adaptation efficiency in [foundation models](https://arxiv.org/abs/2108.07258). More broadly, I am interested in understanding and improving the underlying learning mechanics of representation learning methods.
 
 Previously, I completed my Master's degree in Artificial Intelligence at the University of Amsterdam, where I mainly worked on computer vision and causal representation learning. I also hold a Bachelor's degree in Computer Science from the University of Amsterdam.

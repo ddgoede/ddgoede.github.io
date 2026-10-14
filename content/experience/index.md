@@ -25,27 +25,36 @@ sections:
           date_start: '2023-09-11'
           date_end: ''
           description: PhD student on Adaptable Foundation Models at the University of Amsterdam supervised by Cees Snoek and Yuki Asano. The position is part of the QUVA Lab, which is an academic-industry lab supported by Qualcomm, and the ELLIS Network of Excellence in AI.
+        - title: Head Teaching Assistant & Tutorial Lecturer
+          company: University of Amsterdam
+          company_url: ''
+          company_logo: uva #TODOO
+          location: Amsterdam
+          date_start: '2023-11-01'
+          date_end: '2024-12-31'
+          description: |2-
+            * **Head Teaching Assistant**, Foundation Models & Deep Learning 1 (2024). Designed and orchestrated the course practicals and coordinated a teaching staff of 10+ TAs for a cohort of 240 students.
+            * **Tutorial Lecturer**, Deep Learning 1 (2023). Delivered a lecture series on implementing deep learning methodologies in PyTorch for a cohort of 240 students ([Course Material](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)).
         - title: Teaching Assistant
           company: University of Amsterdam
           company_url: ''
           company_logo: uva #TODOO
           location: Amsterdam
           date_start: '2019-09-01'
-          date_end: ''
+          date_end: '2023-08-31'
           description: |2-
-            Responsible for assisting during practical sessions, grading of assignments, and supervision of exams.
-
-            * Undergraduate courses: Programming Languages (19/20, 21/22), Linear Algebra (19/20),  Data Structures and Algorithms (19/20), Automata (19/20), Databases (20/21), Discrete Mathematics (20/21), Calculus (20/21), Machine Learning (20/21, 21/22), Computer Vision (21/22), Data Analysis (21/22), and VR/AR (21/22).
-            * Graduate courses: Deep Learning 1 (22/23, 23/24), Deep Learning 2 (22/23).
+            * Supported **19 course editions** across MSc AI and BSc CS programs, covering topics from Machine Learning to Data Structures & Algorithms.
+            * Created and taught a technical notebook for the *Causality and Causal Representation* module of the Deep Learning 2 course ([Notebook Link](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Causality_and_CRL/citris-tutorial.html)).
+            * Developed a custom assignment for the “Programming Languages” course and implemented automated test suites in [CodeGrade](https://www.codegrade.com/) to streamline assessment of 120 students ([Link](/media/assignments/vigenere.pdf)).
         - title: Research Intern
-          company: University of Amsterdam (QUVA Lab)
+          company: University of Amsterdam, Qualcomm
           company_url: ''
           company_logo: quva #TODO
           location: Amsterdam
-          date_start: '2022-11-01'
+          date_start: '2022-10-01'
           date_end: '2023-06-30'
           description: |2-
-              Research internship in causal representation learning for my Master's thesis at the Qualcomm-UvA (QUVA) lab, under supervision of Dr. Sara Magliacane and Phillip Lippe.
+            Research internship for my Master's thesis at the Qualcomm-UvA (QUVA) lab, under supervision of Dr. Sara Magliacane and Phillip Lippe.
     design:
       columns: '2'
 ---
