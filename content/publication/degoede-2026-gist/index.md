@@ -19,7 +19,7 @@ tags:
 - Self-supervised learning
 featured: false
 # No standalone page: every link to this entry goes to the project page.
-external_link: 'https://ddgoede.github.io/gist-tokenizer/'
+external_link: '/gist-tokenizer/'
 searchable: false
 _build:
   render: never
