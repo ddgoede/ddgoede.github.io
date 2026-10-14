@@ -1,0 +1,58 @@
+// Publication thumbnails: larger and uncropped (see layouts/partials/views/compact.html and card.html).
+
+// Homepage list: thumbnail on the left, whole figure inside a uniform frame.
+.media.stream-item.view-compact {
+  align-items: flex-start;
+}
+
+.view-compact .pub-thumb {
+  flex: 0 0 36%;
+  max-width: 300px;
+  margin-right: 1.5rem;
+
+  a {
+    display: block;
+  }
+}
+
+.media.stream-item .pub-thumb img,
+.card-thumb {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.media.stream-item .pub-thumb img {
+  aspect-ratio: 16 / 10;
+  padding: 6px;
+}
+
+// Publications page cards: full image at a 2:1 frame instead of a 16:9 crop.
+.card-thumb {
+  aspect-ratio: 2 / 1;
+  padding: 8px;
+}
+
+.dark .media.stream-item .pub-thumb img,
+.dark .card-thumb {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+// Phones: stack the thumbnail above the text.
+@media screen and (max-width: 767.98px) {
+  .media.stream-item.view-compact {
+    flex-direction: column;
+  }
+
+  .view-compact .pub-thumb {
+    flex: none;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 0 1rem 0;
+  }
+}

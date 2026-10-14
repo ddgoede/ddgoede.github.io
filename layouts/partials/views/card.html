@@ -1,5 +1,6 @@
 {{/* Local override of the Wowchemy v5.8 view: items with external_link open in the same tab
-     (GIST links to its project page on this same site). Only the new-tab line is removed. */}}
+     (GIST links to its project page on this same site), and the preview shows the whole image
+     instead of a 16:9 crop (styles in assets/scss/custom.scss). */}}
 {{ $item := .item }}
 
 {{/* Dynamic view adjusts to content type. */}}
@@ -45,11 +46,11 @@
   {{ $resource := partial "functions/get_featured_image.html" $item }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
-    {{ $image := .Fill (printf "808x455 webp %s" $anchor) }}
+    {{ $image := .Resize "1200x webp" }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
         <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-            class="article-banner" alt="{{ $item.Title }}" loading="lazy">
+            class="card-thumb" alt="{{ $item.Title }}" loading="lazy">
       </div>
     </a>
   {{end}}
